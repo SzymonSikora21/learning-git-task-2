@@ -17,3 +17,6 @@ divisible_by_5 = [numbers for numbers in my_list if numbers % 5 == 0]
 squares = [number ** 2 for number in my_list if number % 5 == 0]
 print(divisible_by_5)
 print(squares)
+
+my_list2 = list(range(0, 101, 5))
+print(my_list2)
