@@ -19,4 +19,6 @@ print(divisible_by_5)
 print(squares)
 
 my_list2 = list(range(0, 101, 5))
+cubes = [number ** 3 for number in my_list2]
 print(my_list2)
+print(cubes)
